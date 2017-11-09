@@ -7,8 +7,12 @@ import com.board.dao.BoardDAO;
 public class BoardSDAOImpl implements BoardDAO {
 
 	@Override
-	public void insertBoard(String board) throws SQLException {
-		// TODO Auto-generated method stub
+	public void insertBoard(int board) throws SQLException {
+		
+	}
+
+	@Override
+	public void deleteBoard(String board) throws SQLException {
 		
 	}
 	
